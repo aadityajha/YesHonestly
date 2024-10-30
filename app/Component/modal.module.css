@@ -1,0 +1,141 @@
+/* app/components/modal.module.css */
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  /* Dark semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  /* Ensure it's above other content */
+}
+
+.modalContent {
+  background: #ffffff;
+  /* White background for the modal */
+  padding: 30px;
+  /* More padding for better spacing */
+  border-radius: 4px;
+  /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  /* Softer shadow */
+  width: 80%;
+  /* Responsive width */
+  max-width: 400px;
+  /* Max width for large screens */
+
+}
+
+.modalTitle {
+  margin-bottom: 10px;
+  /* Space below title */
+  font-size: 1.2rem;
+  /* Larger font for the title */
+  color: #333;
+  /* Dark color for contrast */
+}
+
+.modalLink {
+  margin: 10px 0 20px;
+  /* Margin for spacing */
+  font-size: 1rem;
+  /* Standard font size */
+  color: #0070f3;
+  /* Link color (blue) */
+  word-wrap: break-word;
+  /* Allow long links to break */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  /* Center buttons */
+  gap: 10px;
+  /* Space between buttons */
+}
+
+.copyButton,
+.closeButton {
+  padding: 12px 20px;
+  /* Button padding */
+  border: none;
+  /* Remove default border */
+  border-radius: 8px;
+  /* Rounded corners for buttons */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background 0.3s ease;
+  /* Transition for hover effect */
+}
+
+.copyButton {
+  color: #292929;
+  padding: 8px 28px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  background-color: #ffbc0d;
+}
+
+
+.closeButton {
+  background: #e1e0e0f1;
+  /* Red background for close */
+  color: #292929;
+  padding: 8px 28px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+
+/* Popup */
+/* app/components/popup.module.css */
+
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* Dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  /* Ensure it sits on top */
+}
+
+.popupContent {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.closeButton {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336;
+  /* Red color */
+  color: white;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background-color: #d32f2f;
+  /* Darker red on hover */
+}

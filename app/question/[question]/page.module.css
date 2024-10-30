@@ -1,0 +1,25 @@
+.app {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.box {
+    height: 100%;
+    padding: 10px;
+}
+
+/* Question Box  */
+/* app/home.module.css or appropriate CSS file */
+
+.questionContainer {
+    width: 100vw;
+    /* Full width of the viewport */
+    height: 90vh;
+    /* Full height of the viewport */
+    position: relative;
+    /* Necessary for positioning child elements absolutely */
+    overflow: hidden;
+    /* Prevents scrolling and hides overflow */
+    /* For visibility of the container */
+}
