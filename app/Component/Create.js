@@ -54,14 +54,14 @@ const Create = () => {
         type="text"
         value={option1}
         onChange={(e) => setOption1(e.target.value)}
-        placeholder="Option 1 (Movable)"
+        placeholder="Option 1 (Static)"
         className={styles.optionInput}
       />
       <input
         type="text"
         value={option2}
         onChange={(e) => setOption2(e.target.value)}
-        placeholder="Option 2 (Static)"
+        placeholder="Option 2 (Movable)"
         className={styles.optionInput}
       />
       <button
