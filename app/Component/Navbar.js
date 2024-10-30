@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Link href="/" className={styles.logo} >
-        AskHonestly
+        YesHonestly
         {/* <Image src={logo} width="24" height="24" /> */}
 
       </Link>
