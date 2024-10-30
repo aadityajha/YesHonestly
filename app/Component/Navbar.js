@@ -7,7 +7,10 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Link href="/" className={styles.logo} >
-        AskAway <Image src={logo} width="24" height="24" /></Link>
+        AskHonestly
+        {/* <Image src={logo} width="24" height="24" /> */}
+
+      </Link>
       <ul className={styles.navLinks}>
         <li>
           <Link href="/">create</Link>
